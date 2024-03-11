@@ -1,10 +1,12 @@
 // import logo from "./logo.svg";
 import "./App.css";
 import Accordion from "./components/Accordion";
+import menus from "./components/Tree-view/data";
 import ImageSlider from "./components/Image-slider";
 import LoadMore from "./components/Load-more";
 import RandomColor from "./components/Random-color";
 import StarRating from "./components/Star-rating";
+import TreeView from "./components/Tree-view";
 
 function App() {
   return (
@@ -17,7 +19,8 @@ function App() {
         page={"1"}
         limit={"5"}
       /> */}
-      <LoadMore />
+      {/* <LoadMore /> */}
+      <TreeView menus={menus} />
     </div>
   );
 }
