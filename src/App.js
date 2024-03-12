@@ -7,6 +7,7 @@ import LoadMore from "./components/Load-more";
 import RandomColor from "./components/Random-color";
 import StarRating from "./components/Star-rating";
 import TreeView from "./components/Tree-view";
+import QrCodeGenerator from "./components/Qr-code-generator";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
         limit={"5"}
       /> */}
       {/* <LoadMore /> */}
-      <TreeView menus={menus} />
+      {/* <TreeView menus={menus} /> */}
+      <QrCodeGenerator />
     </div>
   );
 }
