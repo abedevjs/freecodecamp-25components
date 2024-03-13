@@ -14,7 +14,9 @@ function ModalParent() {
   return (
     <div>
       <button onClick={handleOnClick}>Open Modal</button>
-      {openModal && <ModalChild onClose={handleOnClose} title={<Title />} />}
+      {openModal && (
+        <ModalChild onClose={handleOnClose} id="some-id" title={<Title />} />
+      )}
     </div>
   );
 }

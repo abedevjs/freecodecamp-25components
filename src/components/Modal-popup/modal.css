@@ -24,7 +24,7 @@
 .close-modal-icon {
   cursor: pointer;
   font-size: 40px;
-  float: right;
+  /* float: right; */
   font-weight: bold;
 }
 
@@ -32,6 +32,8 @@
   padding: 4px 16px;
   background-color: #5cb85c;
   color: #fff;
+  display: flex;
+  justify-content: space-between;
 }
 
 .body {

@@ -8,11 +8,13 @@ function ModalChild({
   footer = "Footer Backup",
 }) {
   return (
-    <div id={id || "Modal"} className="modal" onClick={onClose}>
+    <div id={id || "Modal"} className="modal">
       <div className="modal-content">
         <div className="header">
           {title && title}
-          <span onClick={onClose}>&times;</span>
+          <span onClick={onClose} className="close-modal-icon">
+            &times;
+          </span>
         </div>
         <div className="body">{body && body}</div>
         <div className="footer">{footer && footer}</div>

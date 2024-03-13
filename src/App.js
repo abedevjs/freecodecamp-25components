@@ -12,6 +12,7 @@ import DarkMode from "./components/Dark-mode";
 import ScrollIndicator from "./components/Scroll-indicator";
 import TabsParent from "./components/Tabs/Tabs-parent";
 import ModalParent from "./components/Modal-popup/Modal-parent";
+import GithubFinder from "./components/Github-finder";
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       {/* <DarkMode /> */}
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
       {/* <TabsParent /> */}
-      <ModalParent />
+      {/* <ModalParent /> */}
+      <GithubFinder />
     </div>
   );
 }
