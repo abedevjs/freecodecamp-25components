@@ -13,6 +13,7 @@ import ScrollIndicator from "./components/Scroll-indicator";
 import TabsParent from "./components/Tabs/Tabs-parent";
 import ModalParent from "./components/Modal-popup/Modal-parent";
 import GithubFinder from "./components/Github-finder";
+import SearchAutoComplete from "./components/Search-autocomplete";
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
       {/* <TabsParent /> */}
       {/* <ModalParent /> */}
-      <GithubFinder />
+      {/* <GithubFinder /> */}
+      <SearchAutoComplete />
     </div>
   );
 }
