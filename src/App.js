@@ -14,6 +14,8 @@ import TabsParent from "./components/Tabs/Tabs-parent";
 import ModalParent from "./components/Modal-popup/Modal-parent";
 import GithubFinder from "./components/Github-finder";
 import SearchAutoComplete from "./components/Search-autocomplete";
+import FeatureFlag from "./components/Feature-flag";
+import { FeatureContextProvider } from "./components/Feature-flag/context/FeatureContext";
 
 function App() {
   return (
@@ -34,7 +36,10 @@ function App() {
       {/* <TabsParent /> */}
       {/* <ModalParent /> */}
       {/* <GithubFinder /> */}
-      <SearchAutoComplete />
+      {/* <SearchAutoComplete /> */}
+      <FeatureContextProvider>
+        <FeatureFlag />
+      </FeatureContextProvider>
     </div>
   );
 }
