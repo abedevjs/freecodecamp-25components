@@ -16,6 +16,10 @@ import GithubFinder from "./components/Github-finder";
 import SearchAutoComplete from "./components/Search-autocomplete";
 import FeatureFlag from "./components/Feature-flag";
 import { FeatureContextProvider } from "./components/Feature-flag/context/FeatureContext";
+import UseFetch from "./components/Use-fetch/useFetch";
+import UseFetchHookTest from "./components/Use-fetch/UseFetch-test";
+import UseOnclickOutsideTest from "./components/UseOutside/test";
+import UseWindowResponsiveTest from "./components/Use-responsive/test";
 
 function App() {
   return (
@@ -37,9 +41,12 @@ function App() {
       {/* <ModalParent /> */}
       {/* <GithubFinder /> */}
       {/* <SearchAutoComplete /> */}
-      <FeatureContextProvider>
+      {/* <FeatureContextProvider>
         <FeatureFlag />
-      </FeatureContextProvider>
+      </FeatureContextProvider> */}
+      {/* <UseFetchHookTest /> */}
+      {/* <UseOnclickOutsideTest /> */}
+      <UseWindowResponsiveTest />
     </div>
   );
 }
