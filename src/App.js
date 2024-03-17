@@ -20,6 +20,8 @@ import UseFetch from "./components/Use-fetch/useFetch";
 import UseFetchHookTest from "./components/Use-fetch/UseFetch-test";
 import UseOnclickOutsideTest from "./components/UseOutside/test";
 import UseWindowResponsiveTest from "./components/Use-responsive/test";
+import ScrollToTopAndBottom from "./components/Scroll-to-top-and-bottom";
+import ScrollToSection from "./components/Scroll-to-section";
 
 function App() {
   return (
@@ -46,7 +48,9 @@ function App() {
       </FeatureContextProvider> */}
       {/* <UseFetchHookTest /> */}
       {/* <UseOnclickOutsideTest /> */}
-      <UseWindowResponsiveTest />
+      {/* <UseWindowResponsiveTest /> */}
+      {/* <ScrollToTopAndBottom /> */}
+      <ScrollToSection />
     </div>
   );
 }
